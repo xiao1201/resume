@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >肖圣曦</h1>
+                <h4 id="persona-tag" >工业互联网 / 工业自动化 / Node-Red</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">肖圣曦</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科（computing science），在职研（项目管理）</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">加拿大西门菲莎大学，北京人民大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2007、2013</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">18660288102</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">xiao1201@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">https://ataw.tk</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/xiao1201</span></li>
+                </ul>
+            </div>
+
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">编程开发</label><span class="label-value">C/C++，C#，Python，JAVA SE，JAVAScript，PostgresQL，XML、JSON、YML等脚本语言，Webservice，RESTful，Git，VSC、Qt、TwinCat、vim等开发IDE、工具</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">系统运维</label><span class="label-value">Linux基础运维，Linux Bash编程，Windows Server，Exchange Server，SCCM，VMware ESXi、Docker等虚拟化技术，SSH</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">网络运维</label><span class="label-value">CISCO三层交换机、CISCO ASA防护墙命令、配置，VLAN划分，ACL、NAT策略，Panabit网络监控系统</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">网络服务</label><span class="label-value">Joomla、Jekyll建站，Exchange Server、Postfix/Dovecot邮箱服务，Nginx，VPN</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">工业自动化</label><span class="label-value">PLC，GCode，发那科、ABB等机器人编程语言，TCP/IP、UDP、Modbus RTU/TCP、CANBUS、EtherCAT、CANOpen、OPC-UA、MQTT等通讯、现场总线协议，Node-Red物联网开发平台，
+                            基于爱通数控系统的6轴机器人、Scara机器人、Delta机器人、多轴车/铣加工中心以及生产线的系统开发与应用</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">语言</label><span class="label-value">英语：熟练的听说读写能力<br>德语：一般
+                        </span></li>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>加拿大西门菲莎大学 - 计算机科学专业（本科）2002-2007</h3>
+                    </li>
+                    <li>
+                        <h3>北京人民大学 - 项目管理专业（在职研）2010-2013</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>网咖管理员（兼职） - Downtown Internet Café (Robson St & Denman St., Vancouver, BC, Canada) - 2006-2007</h3>
+                    </li>
+                    <li>
+                        <h3>学校助教（兼职） - 爱丽丝学院 (Alice College, Burnaby, BC) - 2004-2005<br>
+                                            - 西门菲莎大学 (Simon Fraser University, Burnaby, BC) - 2006-2007</h3>
+                    </li>
+
+                    <li>
+                        <h3>系统测试、开发 - Aptus Systems Inc, Richmond, BC - 2008-2009</h3>
+                        <p>使用java维护、升级公司销售及物流管理系统</p>
+                    </li>
+                    
+                    <li>
+                        <h3>融资融券专员/营业部网络主管 - 中信万通证券有限责任公司（现中信证券山东） 2011-2013</h3>
+                        <p>香港中路营业部机房服务器及现场客户交易机的维护、更新、排难及灾备演习；<br>融资融券业务开户，讲解。
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>系统控制部主管 - 山东爱通工业机器人科技有限公司（后至江西爱通） 2014-至今</h3>
+                        <p>基于爱通数控系统的6轴机器人、Scara机器人、Delta机器人、多轴车/铣加工中心以及生产线的系统开发与应用；<br>
+                            与德国BWO Elektronik GmbH公司合作，包括数控系统的进口，技术交流，二次开发合作，商务谈判等工作。
+                        </p>
+                    </li>
+
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">工作项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>滕州鲁南机床项目</h3>
+                        <p>
+                        山东省科技重点项目，实现双通道、9轴的车铣复合数控机床的国产数控系统对日本发那科数控系统的替换。顺利完成验收，产生了良好的社会、经济效应。
+                            <br/>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>青岛威奥轨道股份有限公司高铁门打磨项目</h3>
+                        <p>
+                        山东省科技重点项目，实现通过复杂曲线轨迹的离线编程（ABB Robstudio）以及视觉（OpenCV）引导，利用ABB机器人对高铁门进行柔性打磨。解放了在高污染环境中工作的人力，大大提高了工作效率，产生了良好的社会、经济效应。
+                            <br/>
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>公司网络运维、网络服务建设</h3>
+                        <p>
+                        1、使用CISCO 3650三层交换机对公司网络进行VLAN划分、ACL安全策略管理；使用CISCO ASA5510防火墙对内（办公网络）外（Web、邮箱等服务）网隔离，设置端口转发。<br>
+                        2、使用Panabit对公司网络流量进行监控、管理。<br>
+                        3、搭建、维护各种服务，如nginx、Web（基于Joomla，https://www.atawjx.com）、Mail（基于Postfix+Dovecot+rainloop，https://mail.atawjx.com）、微信公众号等全部以docker容器虚拟化的方式运行于基于VMware ESXi的基础虚拟操作系统上。<br>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>江西泓翔家具有限公司实木家具生产线项目</h3>
+                        <p>
+                        利用爱通数控系统，以生产线的方式把客户原有人工操作的老式单机设备进行升级改造，实现对直料与弯料两款产品的自动化生产。为客户解放了人力，大大提高了工作效率，产生了良好的经济效应。
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>崇达技术股份有限公司上Pin包胶项目</h3>
+                        <p>
+                        针对PCB工厂目前普遍采用钻孔前人工处理上PIN、包胶，导致人工操作效率低且搬动PCB板次数多极易产生刮伤的品质风险，利用爱通数控系统，实现PCB版的全自动上料 → 自动装定位销 → 自动装垫板 → 自动装铝箔 → 自动包胶成品下料等一系列自动化操作，降低了品质风险，提高了产品的一致性。为客户解放了人力，大大提高了工作效率，产生了良好的经济效应。
+                        </p>
+                    </li>
+
+                    <li>
+                        <h3>南康家具小镇示范线项目</h3>
+                        <p>
+                        应南康政府邀请，在家具小镇园区建造了一条实基于爱通数控系统的实木板凳生产组装示范线。实现从源头机械手上一整块实木板料开始，中间经过切割、砂光、油膜、开榫、机加工，到最后机械手下料、组装出一款板凳产品，整个过程无需人工干预。收到了包括江西省省委副书记李炳军、工信部产业政策司长许科敏、国家林业和草原局胡章翠主任在内的多位领导的肯定与赞扬，产生了良好的社会效应。
+                        </p>
+                    </li>
+
+                    
+                    <li>
+                        <h3>江西金源家具有限公司柔性智能工厂项目</h3>
+                        <p>
+                            利用爱通数控系统，整合宽砂机、倒角机、开榫机、数控双通道龙门加工中心、6轴上下料机械手等设备，为客户建设1条直料线、2条弯料线，实现包括沙发、床等在内的多种家具类型的柔性加工。为了最大化的降低客户使用难度与学习成本，利用柔性思想设计了工装夹具以兼容各种类型的工件。同时允许客户在数控系统上输入各种参数实现一键换产，培训客户使用MasterCAM软件实现加工中心NC程序的离线生成。<br>
+  
+                        </p>
+                    </li>
+                    <li>
+                        <h3>公司物联网网关的研发</h3>
+                        <p>
+                            利用ARM Linux开发板以及开源的Node-Red物联网开发平台实现了智能工厂的边缘计算系统，能够：<br>
+                            1、与PLC、运动控制器等下游设备交互数据（利用Modbus RTU/TCP、TCP、OPC-UA等协议）。<br>
+                            2、将数据（所有的RAW DATA）写入PostgresQL数据库。<br>
+                            3、对数据进行简单处理后利用MQTT协议传送至云端服务器。<br>
+                            4、对智能工厂的异常情况以微信、邮件方式提醒管理者。<br>
+                            5、将云端服务器的数据利用Grafana可视化平台进行展示，方便管理者随时掌握智能工厂状态。<br>
+                            6、云端服务器的数据被保存至InfluxDB数据库，供上层MES系统、乃至ERP系统调用。<br>
+                            7、通过MQTT协议接收来自上层MES系统的指令，对下游设备进行相应的操作。<br>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+ 
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                热爱技术，有很强的学习能力。英语流利，可以使用英语无障碍沟通及撰写技术文档。擅长利用google、youtube、stackoverflow、github等平台快速学习新技术以及解决问题。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
